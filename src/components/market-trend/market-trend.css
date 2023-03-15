@@ -1,0 +1,74 @@
+.market__trend__container {
+  position: relative;
+  top: 30vh;
+}
+.title__market__trend {
+}
+.market__trend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.crypto__card {
+  padding: 18px 20px 18px 19px;
+  width: 235px;
+  margin-bottom: 20px;
+  height: 170px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+}
+.item__market {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.logo__crypto {
+  width: 35px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+}
+.title__crypto {
+  text-transform: uppercase;
+}
+.name__crypto {
+  word-wrap: break-word;
+  height: 20px;
+  border-radius: 4px;
+  padding: 4px 6px 4px 6px;
+  background: #c6c6c6;
+  color: black;
+}
+.border__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  margin-left: 30px;
+}
+.hr__card {
+  margin-top: 25px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.crypto__value {
+  display: flex;
+  justify-content: space-between;
+}
+.coin__value {
+  display: flex;
+  flex-direction: column;
+}
+.chart__state {
+  margin-top: 30px;
+  width: 100px;
+  height: 50px;
+}
