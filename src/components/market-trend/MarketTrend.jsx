@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import HeaderStore from "../../stores/HeaderStore";
 import ArrowRight from "../../img/arrow-right.png";
-import { FiArrowUpRight, FiArrowDown } from "react-icons/fi";
+import PriceChange from "../price-change/PriceChange";
 import ChartState from "../../img/chart-state.png";
 import "../market-trend/market-trend.css";
 
@@ -33,17 +33,13 @@ const MarketTrend = () => {
               <div className="crypto__value">
                 <div className="coin__value">
                   <h3>${item.current_price}</h3>
-                  {item.price_change_percentage_24h < 0 ? (
-                    <span className="red">
-                      <FiArrowDown className="icon" />
-                      {item.price_change_percentage_24h.toFixed(2)}%
-                    </span>
-                  ) : (
-                    <span className="green">
-                      <FiArrowUpRight className="icon" />
-                      {item.price_change_percentage_24h.toFixed(2)}%
-                    </span>
-                  )}
+                  <span>
+                    {
+                      <PriceChange
+                        priceChange={item.price_change_percentage_24h}
+                      />
+                    }
+                  </span>
                 </div>
                 <img
                   className="chart__state"
