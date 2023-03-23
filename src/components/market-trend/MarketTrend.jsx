@@ -2,16 +2,19 @@ import React, { useState, useEffect } from "react";
 import HeaderStore from "../../stores/HeaderStore";
 import ArrowRight from "../../img/arrow-right.png";
 import PriceChange from "../price-change/PriceChange";
-import ChartState from "../../img/chart-state.png";
+import ChartState from "../chart-state/ChartState";
 import "../market-trend/market-trend.css";
 
 const MarketTrend = () => {
   const [data, setData] = useState([]);
-  const { getCoinTrending } = HeaderStore();
+  const { getCoinTrending, getMarketChart } = HeaderStore();
+  const [prices, setPrices] = useState([]);
+
   useEffect(() => {
     getCoinTrending().then((data) => setData(data));
+    getMarketChart().then((data) => setPrices(data.prices));
   }, []);
-
+  console.log(getMarketChart);
   return (
     <div className="market__trend__container">
       <h2 className="title__market__trend">Market Trend</h2>
@@ -41,11 +44,7 @@ const MarketTrend = () => {
                     }
                   </span>
                 </div>
-                <img
-                  className="chart__state"
-                  src={ChartState}
-                  alt="Chart State"
-                />
+                <div className="chart__state">{ChartState(prices)}</div>
               </div>
             </div>
           ))}

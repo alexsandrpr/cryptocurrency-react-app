@@ -20,8 +20,19 @@ const HeaderStore = () => {
   const getCoinTrending = () => {
     return getResource(_coinTrending);
   };
+  const getMarketChart = () => {
+    const coin = {
+      bintoin: "bitcoin",
+      ethereum: "ethereum",
+      tether: "tether",
+      bnb: "bnb",
+    };
+    return getResource(
+      `https://api.coingecko.com/api/v3/coins/${coin.ethereum}/market_chart?vs_currency=usd&days=7`
+    );
+  };
 
-  return { getCoinTrending };
+  return { getCoinTrending, getMarketChart };
 };
 
 export default HeaderStore;

@@ -70,7 +70,7 @@
   flex-direction: column;
 }
 .chart__state {
-  margin-top: 30px;
-  width: 100px;
-  height: 50px;
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
 }
