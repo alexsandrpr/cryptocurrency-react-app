@@ -1,58 +1,57 @@
-.header{
-    
+.header {
 }
-.header__title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
+.header__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
 }
-.title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    text-align: center;
-    color: #ECF1F0;
+.title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #ecf1f0;
 }
-.title__info{
-    flex-wrap: wrap;
-    width: 37%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    color: #B6B6B6;
-    padding-bottom: 40px;
+.title__info {
+  flex-wrap: wrap;
+  width: 37%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #b6b6b6;
+  padding-bottom: 40px;
 }
-.btn__get__started{
-    width: 190px;
-    height: 56px;
-    background: #0FAE96;
-    border-radius: 10px;
-    border: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    color: #FFFFFF;
+.btn__get__started {
+  width: 190px;
+  height: 56px;
+  background: #0fae96;
+  border-radius: 10px;
+  border: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
 }
-.header__gradient-1{
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    right: 200px;
-    top: 190px;
-    background: #FF00C7;
-    filter: blur(200px);
+.header__gradient-1 {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  right: 200px;
+  top: 190px;
+  background: #ff00c7;
+  filter: blur(200px);
 }
-.header__gradient-2{
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    left: 300px;
-    top: 190px;
-    background: #7000FF;
-    filter: blur(200px);
+.header__gradient-2 {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  left: 300px;
+  top: 190px;
+  background: #7000ff;
+  filter: blur(200px);
 }

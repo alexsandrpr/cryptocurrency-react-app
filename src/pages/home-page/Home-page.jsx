@@ -8,7 +8,7 @@ import "./home-page.css";
 
 function HomePage() {
   return (
-    <div className="container">
+    <div className="home__container">
       <Header />
       <MarketTrend />
       <AmazingFaetures />

@@ -69,8 +69,8 @@
 }
 .amazing__faetures__gradient-1 {
   position: absolute;
-  width: 200px;
-  height: 400.5px;
+  width: 50%;
+  height: 20%;
   left: 0px;
   top: -100px;
   background: #7000ff;
@@ -78,8 +78,8 @@
 }
 .amazing__faetures__gradient-2 {
   position: absolute;
-  width: 400.33px;
-  height: 300px;
+  width: 50%;
+  height: 30%;
   right: 0;
   top: 540px;
   background: #60ffe7;

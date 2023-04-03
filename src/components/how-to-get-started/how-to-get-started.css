@@ -1,0 +1,61 @@
+.how__to__get__started__container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 630px;
+}
+.how__to__get__started {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.how__to__get__started__title {
+}
+.how__to__get__started__description {
+  color: #b6b6b6;
+}
+.how__to__get__started__btn {
+  width: 190px;
+  height: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #0fae96;
+  border-radius: 10px;
+  border: none;
+  margin-top: 40px;
+}
+.how__to__get__started__card {
+}
+
+.how__to__get__started__item {
+  display: flex;
+  padding: 10px 52px 20px 20px;
+  margin-top: 20px;
+  align-items: center;
+  height: 128px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  gap: 25px;
+}
+.how__to__get__started__image {
+  width: 80px;
+  height: 80px;
+}
+.how__to__get__started__item__container {
+}
+.how__to__get__started__item__title {
+}
+.how__to__get__started__item__description {
+  color: #b6b6b6;
+}
+.how__to__get__started__gradient {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 80px;
+  top: 200px;
+  background: #ff00c7;
+  filter: blur(200px);
+}
