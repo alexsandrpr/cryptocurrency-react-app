@@ -1,0 +1,87 @@
+.amazing__faetures-container {
+  position: relative;
+  top: 300px;
+}
+.title__cryptocap {
+  display: flex;
+  justify-content: center;
+}
+.description__cryptocap {
+  display: flex;
+  justify-content: center;
+}
+.card__cryptocap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.card__item__cryptocap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  width: 220px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(100px);
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+.img__cryptocap {
+}
+.title__item__cryptocap {
+}
+.description__item__cryptocap {
+  color: #b6b6b6;
+}
+.link__item__cryptocap {
+  text-decoration: none;
+  color: #0fae96;
+}
+.coin__information {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+.title__information {
+}
+.description__information {
+  color: #b6b6b6;
+}
+.button__information {
+  width: 207px;
+  height: 56px;
+  color: white;
+  font-size: 14px;
+  background: #0fae96;
+  border-radius: 10px;
+  border: none;
+}
+.amazing__faetures__gradient-1 {
+  position: absolute;
+  width: 200px;
+  height: 400.5px;
+  left: 0px;
+  top: -100px;
+  background: #7000ff;
+  filter: blur(230px);
+}
+.amazing__faetures__gradient-2 {
+  position: absolute;
+  width: 400.33px;
+  height: 300px;
+  right: 0;
+  top: 540px;
+  background: #60ffe7;
+  filter: blur(320px);
+}

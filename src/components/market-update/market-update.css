@@ -1,0 +1,66 @@
+.market__update__container {
+  position: relative;
+  width: 100%;
+  top: 500px;
+}
+.table__container {
+  overflow-x: auto;
+}
+.table__market__update {
+  border-collapse: collapse;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+tbody td {
+  text-align: center;
+  border: none;
+}
+.tr__market__update {
+  height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.table__title__list {
+  text-transform: uppercase;
+}
+.coin__list {
+}
+.name__coin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
+.image__table__coin {
+  width: 35px;
+  height: 35px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+}
+.vertical__line {
+  transform: rotate(0deg);
+  width: 0, 5px;
+  height: 30px;
+  background: #b6b6b6;
+}
+.coin__symbol {
+  text-transform: uppercase;
+}
+.btn__trade {
+  width: 92px;
+  height: 32px;
+  background: #0fae96;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  border: none;
+}
+.see__all__coins {
+  margin-top: 50px;
+}
+.link__see__all__coins {
+  color: #0fae96;
+}
